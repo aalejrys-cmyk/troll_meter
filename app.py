@@ -60,7 +60,7 @@ if st.button("Analizar Mensaje"):
             prob_pro = s_pro / total
             
             with col1:
-                st.metric("Nivel Tóxico ", f"{prob_tox:.%}")
+                st.metric("Nivel Tóxico ", f"{prob_tox:.1%}")
             with col2:
                 st.metric("Nivel Amigable ", f"{prob_pro:.1%}")
 
